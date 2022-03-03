@@ -1,0 +1,8 @@
+@media screen and (min-width: 600px){
+.slider-section { display: flex; flex-direction: row; justify-content: flex-end; column-gap: 20px; }
+.slider-section .slider-part { order: 1; flex-direction: row; flex: 1; column-gap: 20px; flex-wrap: wrap; justify-content: flex-end;  height: 100%; }
+.slider-section .slider-part .slider { overflow: hidden; }
+.slider-section .slider-part .navigation { margin-left: 100px; }
+
+.slider-section .text-box { order: 2; flex: 0 0 301px;  margin-bottom: 0px; }
+}
